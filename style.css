@@ -62,12 +62,14 @@ button {
   box-shadow:0px 0px 2px rgb(95, 196, 201);
   transition: box-shadow 0.2s;
 }
-.add-button:hover,
+.add-button:hover {
+  box-shadow: 0px 0px 11px rgb(95, 196, 201);
+}
 .btn-delete:hover,
 .btn-edit:hover {
-  box-shadow:0px 0px 11px rgb(95, 196, 201);
-  outline: none; /* removes focus outline */
+  text-shadow:0px 0px 11px rgb(95, 196, 201);
 }
+
 
 
 /* MIDDLE-TASK-LIST CONTAINER */
