@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>To-Do-List</title>
+    <script src="todo.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main class="main-container">
+
+<!-- /* MAIN CONTAINER */
+/* -------------- */ -->
+      <h1 class="main-header">To Do List</h1>
+
+
+
+<!-- /* SEARCH-ADD CONTAINER */
+/* -------------------- */ -->
+      <!-- <div class="search-add-container">
+        <input type="search" placeholder="Add todo..." class="search-bar">
+        <button class="add-button">Add</button>
+      </div> -->
+    <form id="add-form" class="text-add-container">
+      <input type="text" placeholder="Add a task…" class="text-bar" required>
+      <button class="add-button" >Add</button>
+    </form>
+
+
+<!-- /* MIDDLE-TASK-LIST CONTAINER */
+/* -------------------------- */ -->
+      <div class="middle-taskList-container">
+        Task List
+      </div>
+
+
+
+<!-- /* LIST-CONTAINER */
+/* -------------- */ -->
+
+
+
+    <!-- FINISH CONNECTING TO JS USING THIS TEMPLATE VESRION FROM
+    THEN DO THE SAME THING BUT OTHER WAY MAKE THE TEMPLATE IN JS (for experience) -->
+
+
+      <ul class="list-container">
+        <template id="todo-template">
+          <li class="list">
+            <div class="todo-main">
+              <input type="checkbox" class="checkbox">
+              <span class="todo-text"></span>
+            </div>
+                <div class="btn-actions hidden-buttons">
+                  <button class="btn-delete">
+                    Delete
+                  </button>
+                  <button class="btn-edit">
+                    Edit
+                  </button>
+                </div>
+          </li>
+        </template>
+      </ul>
+
+
+
+<!-- /* FOOTER/CREDITS */
+/* -------------- */ -->
+      <footer class="end-credits-container">
+        <div class="footer-text"></div>
+      </footer>
+
+    </main>
+  </body>
+</html>

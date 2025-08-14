@@ -1,0 +1,141 @@
+/* GLOBAL VARIABLES */
+/* ---------------- */
+* {
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+  font-family:Arial;
+}
+ul {
+  list-style:none; /* removes bullet points */
+}
+button {
+  cursor:pointer;
+}
+
+/* MAIN CONTAINER */
+/* -------------- */
+.main-container {
+  background-color:rgba(24, 18, 18, 0.925);
+  width:350px;
+  border:2px rgb(64, 65, 147) solid;
+  border-radius:5px;
+  box-shadow:0px 0px 4px rgb(64, 65, 147);
+  padding:20px;
+}
+
+
+/* MAIN HEADER */
+/* -------------- */
+.main-header {
+  color:white;
+  text-align: center;
+  margin:0px;
+  margin-top:10px;
+  margin-bottom:15px;
+}
+
+/* SEARCH-ADD CONTAINER */
+/* -------------------- */
+.text-add-container {
+  display:flex;
+  height:30px;
+  justify-content: center;
+  gap:5px;
+  margin-bottom:15px;
+}
+.text-bar {
+  border-radius:5px;
+  border:none;
+  width:150px;
+  height:100%;
+  padding-left:2px;
+}
+.add-button {
+  background-color:rgb(86, 130, 251);
+  color:black;
+  border:none;
+  border-radius:5px;
+  height:100%;
+  font-weight:bold;
+  padding:5px;
+  box-shadow:0px 0px 2px rgb(95, 196, 201);
+  transition: box-shadow 0.2s;
+}
+.add-button:hover,
+.btn-delete:hover,
+.btn-edit:hover {
+  box-shadow:0px 0px 11px rgb(95, 196, 201);
+  outline: none; /* removes focus outline */
+}
+
+
+/* MIDDLE-TASK-LIST CONTAINER */
+/* -------------------------- */
+.middle-taskList-container {
+  color:white;
+  text-align: center;
+  margin:0px;
+  font-weight:bold;
+}
+
+/* LIST-CONTAINER */
+/* -------------- */
+
+.list-container {
+  display:flex;
+  flex-direction:column;
+  min-height:50px;
+}
+.list {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  border-radius:5px;
+  padding:5px;
+  min-height:35px;
+  align-items: flex-start;
+}
+.todo-main {
+  display:flex;
+  gap:10px;
+  flex: 1;
+  
+}
+.checkbox {
+  cursor:pointer;
+}
+.todo-text {
+  color:white;
+  font-size:14px;
+  overflow-wrap:anywhere;
+}
+
+.active-buttons {
+  display:flex;
+  align-self:flex-end;
+  gap:20px;
+}
+.hidden-buttons {
+  display:none;
+}
+.btn-delete,
+.btn-edit {
+  font-size:12px;
+  background:transparent;
+  color:rgb(177, 15, 15);
+  border:none;
+  transition: box-shadow 0.2s;
+}
+
+
+/* FOOTER/CREDITS */
+/* -------------- */
+.end-credits-container {
+  overflow-wrap:anywhere;
+}
+.footer-text {
+  color:white;
+  text-align:center;
+  font-size:12px;
+}
