@@ -6,7 +6,7 @@ function createWindow() { //our method we made
   const win = new BrowserWindow({ //making a new instance(a specific window) of the browserwindow class 
     width: 550,        // Window width
     height: 550,       // Window height
-    resizable: true,  // User cannot resize
+    resizable: false,  // User cannot resize
     autoHideMenuBar: true // Hide the top menu bar
   });
   //height, width, etc..These are options that the BrowserWindow constructor understands.
